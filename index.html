@@ -5,7 +5,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ActiveBox</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -44,7 +46,7 @@
 
 <!-- Header -->
 
-<header class="header">
+<header class="header" id="header">
     <div class="container">
         <div class="header__inner">
             <div class="header__logo">
@@ -58,6 +60,11 @@
                 <a class="nav__link" href="">testimonials</a>
                 <a class="nav__link" href="">download</a>
             </nav>
+
+            <button class="burger" type="button">
+                <span class="burger__item">Menu</span>
+            </button>
+
         </div>
     </div>
 
@@ -65,7 +72,7 @@
 
 <!-- Intro -->
 
-<div class="intro">
+<div class="intro" id="intro">
     <div class="container">
        <div class="intro__inner">
             <h1 class="intro__title">Your favorite one page multi purpose template</h1>
@@ -81,7 +88,6 @@
 
 <div class="container">
     <div class="features">
-        <div class="features">
             <div class="features__item">
                 <img class="features__icon" src="assets/images/icon/1.png" alt="">
                 <h4 class="features__title">Easily Customised</h4>
@@ -117,7 +123,6 @@
                 <h4 class="features__title">Download for Free</h4>
                 <div class="features__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor  </div>
             </div>
-        </div>
     </div> <!-- /.Features -->
 </div> <!-- /.Container -->
 
@@ -398,6 +403,9 @@
 </div><!-- /.footer -->
 
 
+
+<!-- JavaScript -->
+<script src="app.js"></script>
 
 
 
